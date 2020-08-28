@@ -9,7 +9,7 @@ All experiments were conducted after receiving institutional review board approv
 #### Filtering and pre-processing genes
 Genes with absolute expression values in the 10<sup>th</sup> percentile across samples were filtered out from the dataset. Absolute expression values &le;1.0 rpm were replaced with 1.0 rpm and the entire dataset was then log<sub>2</sub> transformed. Genes with variablility in the 10<sup>th</sup> percentile across samples were then filtered out from the dataset. Finally, genes with &le;log<sub>2</sub>(4.0 rpm) across samples were filtered out from the dataset.
 #### Data and statistical analysis
-Downstream data analysis was performed using in-house scripts written in MATLAB 2020a (The MathWorks, Inc.). Clustering of gene expression data was performed using the `clustergram` function with `correlation` as the distance metric. Permutation t-tests were conducted for each gene to identify statistically significant changes in expression values at the 95% alpha-significance level. Biologically significant genes were identified by computing q-values and false discovery rates (using the Storey-Tibshirani procedure). Differentially expressed genes were annotated using gene ontology (GO) by mapping gene symbols and associated GO terms. Statistically significant GO terms were determined using the hypergeometric probability distribution. For each GO term, a p-value was calculated representing the probability that the number of annotated genes associated with it could have been found by chance.
+Downstream data analysis was performed using in-house scripts written in MATLAB 2020a (The MathWorks, Inc.). Clustering of gene expression data was performed using the `clustergram` function with `correlation` as the distance metric. Permutation *t*-tests were conducted for each gene to identify statistically significant changes in expression values at the 95% alpha-significance level. Biologically significant genes were identified by computing *q*-values and false discovery rates (FDRs) (using the Storey-Tibshirani procedure). Differentially expressed genes were annotated using gene ontology (GO) by mapping gene symbols and associated GO terms. Statistically significant GO terms were determined using the hypergeometric probability distribution. For each GO term, a *p*-value was calculated representing the probability that the number of annotated genes associated with it could have been found by chance.
 
 #### Results and discussion
 We first clustered data 
@@ -29,6 +29,12 @@ GO terms related to specific molecule functions were selected and sub-ontology i
 We observed that 
 
 Visualize this ontology using the biograph function. You can color the graphs nodes according to their significance. In this example, the red nodes are the most significant, while the blue nodes are the least significant gene ontology terms. Note: The GO terms returned may differ from those shown due to the frequent update to the Homo sapiens gene annotation file.
+
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/volcano-plot.png) ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/volcano-plot.png)
+
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/up-regulated-ontology.png) ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/down-regulated-ontology.png)
+
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/up-regulated-ontology.png) ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/down-regulated-ontology.png)
 
 ### Acknowledgements
 Human Neuron Core: http://www.childrenshospital.org/research/labs/human-neuron-core
