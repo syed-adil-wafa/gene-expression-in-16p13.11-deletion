@@ -2,7 +2,7 @@
 
 
 ### Summary
-Deletions at 16p13.11 are characterized by developmental delay, microcephaly, epilsepy, schizophrenia, childhood-onset psychosis, facial dysmorphism, and behavioral problems. The molecular mechanisms that underlie these clinical phenotypes remain largely unknown. This pilot experiment was conducted to compare the gene expression profiles of human induced pluripotent stem cell (iPSC)-derived excitatory glutamatergic NGN2 cortical neurons and GABAergic inhibitory neurons with 16p13.11 deletions and familial controls. We identified 154 and 31 differentially expressed genes (DEGs) in the cortical and GABAergic neurons with 16p13.11 deletions, respectively. *NNAT*, a gene that encodes a proteolipid involved in the regulation of ion channels during neural development, was identified to be a statistically and biologically significant up-regulated gene in cortical neurons with 16p13.11 deletions. No DEGs were found to be statistically and biologically significant in GABAergic neurons with 16p13.11 deletions. Annotating DEGs using gene ontology (GO) suggested integrin binding and structural molecule activity to be up-regulated and signaling receptor and catalytic activity to be down-regulated in cortical neurons; transmembrane transporter activity was indicated to be up-regulated and ion binding and catalytic activity to be down-regulated in GABAergic neurons. 
+Deletions at 16p13.11 are characterized by developmental delay, microcephaly, epilsepy, schizophrenia, childhood-onset psychosis, facial dysmorphism, and behavioral problems. The molecular mechanisms that underlie these clinical phenotypes remain largely unknown. This pilot experiment was conducted to compare the gene expression profiles of human induced pluripotent stem cell (iPSC)-derived excitatory glutamatergic NGN2 cortical neurons and GABAergic inhibitory neurons with 16p13.11 deletions and familial controls. We identified 154 and 31 differentially expressed genes (DEGs) in the cortical and GABAergic neurons with 16p13.11 deletions, respectively. *NNAT*, a gene that encodes a proteolipid involved in the regulation of ion channels during neural development, was identified to be a statistically and biologically significant up-regulated gene in cortical neurons with 16p13.11 deletions. In addition, several isoforms of protocadherins were observed to be differentially expression in these cortical neurons. No DEGs were found to be statistically and biologically significant in GABAergic neurons with 16p13.11 deletions. Annotating DEGs using gene ontology (GO) suggested up-regulation of integrin binding and structural molecule activity and down-regulation of signaling receptor and catalytic activity in cortical neurons with 16p13.11 deletions; transmembrane transporter activity was up-regulated and ion binding and catalytic activity was down-regulated in GABAergic neurons with 16p13.11 deletions. 
 
 ### Methods
 All experiments were conducted after receiving institutional review board approval. iPSCs were generated from patient fibroblasts and excitatory glutamatergic NGN2 cortical and embryoid body GABAergic inhibitory neuron differentiations were performed as described in [Zhang *et al.* (2013)](https://www.ncbi.nlm.nih.gov/pubmed/23764284) and [Liu *et al.* (2013)](https://www.ncbi.nlm.nih.gov/pubmed/23928500), respectively. Neurons were re-plated on poly-D-lysine/laminin coated 12-well plates and allowed to mature for a week prior to RNA isolation. Gene expression was measured using ThermoFisher Scientific Ion AmpliSeq targeted whole transcriptome sequencing. 
@@ -23,24 +23,22 @@ We then proceeded to identify DEGs in the cortical and GABAergic neurons with 16
 | # of up-regulated genes              | 17                           | 131                              |
 | # of down-regulated genes            | 14                           | 23                               |
 
-The following two volcano plots highlight the top 3 most up-regulated and down-regulated genes in the cortical and GABAergic neurons with 16p13.11 deletions. We observed that *NNAT* had the highest absolute fold change value and the lowest *p*-value in the cortical neurons. Several isoforms of protocadherins were also identified to be differentially expressed in the cortical neurons potentially implicating dysfunction in cell adhesion.  
+The following two volcano plots highlight the top 3 most up-regulated and down-regulated genes in the cortical and GABAergic neurons with 16p13.11 deletions. We observed that *NNAT* had the highest absolute fold change value and the lowest *p*-value in the cortical neurons. Several isoforms of protocadherins were also identified to be differentially expressed in the cortical neurons potentially implicating dysfunction in cell adhesion and structural molecule activity.  
 ##### Volcano plot of GABAergic inhibitory neurons
 ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/volcano-plot.png)
 ##### Volcano plot of excitatory NGN2 cortical neurons
 ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/volcano-plot.png)
-
-GO terms related to specific molecule functions were selected and sub-ontology including the ancestors of the terms were built. Graph nodes were colored according to their significance with red and blue nodes being the most and least significant gene ontology terms, respectively. We observed that  
-
-We observed that 
-
-Visualize this ontology using the biograph function. You can color the graphs nodes according to their significance. In this example, the red nodes are the most significant, while the blue nodes are the least significant gene ontology terms. Note: The GO terms returned may differ from those shown due to the frequent update to the Homo sapiens gene annotation file.
-
-
-![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/volcano-plot.png) ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/volcano-plot.png)
-
-![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/up-regulated-ontology.png) ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/down-regulated-ontology.png)
-
-![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/up-regulated-ontology.png) ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/down-regulated-ontology.png)
+Finally, GO terms related to specific molecule functions were selected and sub-ontology including the ancestors of the terms were built. Graph nodes were colored according to their significance with red and blue nodes being the most and least significant gene ontology terms, respectively. We observed up-regulation of transmembrane transporter activity and down-regulation og ion binding and catalytic activity in GABAergic neurons with 16p13.11 deletions. We also observed up-regulation of integrin binding and structural molecule activity and down-regulation of signaling receptor and catalytic activity in cortical neurons with 16p13.11 deletions.
+##### Gene ontology of up-regulated genes in GABAergic inhibitory neurons
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/up-regulated-ontology.png)
+##### Gene ontology of down-regulated genes in GABAergic inhibitory neurons
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/down-regulated-ontology.png)
+##### Gene ontology of up-regulated genes in excitatory NGN2 cortical neurons
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/up-regulated-ontology.png)
+##### Gene ontology of down-regulated genes in excitatory NGN2 cortical neurons
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/down-regulated-ontology.png)
+#### Limitations and future directions
+Analyses need to be repeated after accounting for batch-to-batch variability and sex differences. Performing more differentiations will increase the number of biological replicates for each genotype allowing for replicability and better precision.
 
 ### Acknowledgements
 Human Neuron Core: http://www.childrenshospital.org/research/labs/human-neuron-core
