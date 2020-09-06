@@ -1,14 +1,4 @@
-%% Exploring targeted whole transcriptome gene expression profiles in neurons with 16p13.11 deletion
-
-% Deletions at 16p13.11 are characterized by developmental delay,
-% microcephaly, epilepsy, schizophrenia, facial dysmorphism,
-% childhood-onset psychosis and behavioral problems. This experiment was
-% conducted to compare the gene expression profiles of human induced
-% pluripotent stem cell (iPSC)-derived excitatory glutamatergic NGN2
-% cortical neurons and embryoid body GABAergic inhibitory neurons with and
-% without 16p13.11 deletions. Gene expression was measured using
-% ThermoFisher Scientific Ion AmpliSeq targeted whole transcriptome
-% sequencing.
+%% Exploring targeted whole transcriptome gene expression profiles in human iPSC-derived neurons with 16p13.11 deletions
 
 close all % close all figures
 clear % clear workspace
