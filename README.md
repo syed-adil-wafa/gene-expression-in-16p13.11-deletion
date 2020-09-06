@@ -14,7 +14,7 @@ Downstream data analysis was performed using in-house scripts written in MATLAB 
 #### Results and discussion
 Hierarchical clustering of the data demonstrated batch-to-batch variation for both cortical and GABAergic neurons with similarity between different genotypes from the same batch of differentiation and variability between similar genotypes from different batches of differentiation.
 ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/clustergram.png) ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/clustergram.jpg)
-We then proceeded to identify DEGs in the cortical and GABAergic neurons and determine whether these were statistically and biologically significant. There were no genes that were both statistically and biologically significant in the GABAergic inhibitory neurons. However, there were 2 genes that were both statistically and biologically significant in the excitatory NGN2 cortical neurons; these were *KDM5D*, which encodes a zinc finger domain containing protein and *NNAT*, which encodes a proteolipid that might be involved in the regulation of ion channels during brain development.
+We then proceeded to identify DEGs in the cortical and GABAergic neurons with 16p13.11 deletions and determine whether these were statistically and biologically significant. There were no genes that were both statistically and biologically significant in the GABAergic inhibitory neurons. However, there were 2 genes that were both statistically and biologically significant in the excitatory NGN2 cortical neurons; these were *KDM5D*, which encodes a zinc finger domain containing protein and *NNAT*, which encodes a proteolipid that might be involved in the regulation of ion channels during brain development.
 |                                      | GABAergic inhibitory neurons | excitatory NGN2 cortical neurons |
 | ------------------------------------ |:----------------------------:|:--------------------------------:|
 | # of statistically significant genes | 205                          | 554                              |
@@ -22,6 +22,11 @@ We then proceeded to identify DEGs in the cortical and GABAergic neurons and det
 | # of differentially expressed genes  | 31                           | 154                              |
 | # of up-regulated genes              | 17                           | 131                              |
 | # of down-regulated genes            | 14                           | 23                               |
+The following two volcano plots highlight the top 3 most up-regulated and down-regulated genes in the cortical and GABAergic neurons with 16p13.11 deletions. We observed that *NNAT* had the highest absolute fold change value and the lowest *p*-value in the cortical neurons. Several isoforms of protocadherins were also identified to be differentially expressed in the cortical neurons potentially implicating dysfunction in cell adhesion.  
+##### Volcano plot of GABAergic inhibitory neurons
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/volcano-plot.png)
+##### Volcano plot of excitatory NGN2 cortical neurons
+![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/Excitatory%20NGN2%20cortical%20neurons/volcano-plot.png)
 
 GO terms related to specific molecule functions were selected and sub-ontology including the ancestors of the terms were built. Graph nodes were colored according to their significance with red and blue nodes being the most and least significant gene ontology terms, respectively. We observed that  
 
