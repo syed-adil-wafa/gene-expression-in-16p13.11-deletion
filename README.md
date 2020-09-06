@@ -22,6 +22,7 @@ We then proceeded to identify DEGs in the cortical and GABAergic neurons with 16
 | # of differentially expressed genes  | 31                           | 154                              |
 | # of up-regulated genes              | 17                           | 131                              |
 | # of down-regulated genes            | 14                           | 23                               |
+| ------------------------------------ |:----------------------------:|:--------------------------------:|
 The following two volcano plots highlight the top 3 most up-regulated and down-regulated genes in the cortical and GABAergic neurons with 16p13.11 deletions. We observed that *NNAT* had the highest absolute fold change value and the lowest *p*-value in the cortical neurons. Several isoforms of protocadherins were also identified to be differentially expressed in the cortical neurons potentially implicating dysfunction in cell adhesion.  
 ##### Volcano plot of GABAergic inhibitory neurons
 ![alt text](https://github.com/syed-adil-wafa/gene-expression-in-16p13.11-deletion/blob/master/figures/GABAergic%20inhibitory%20neurons/volcano-plot.png)
