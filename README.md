@@ -1,4 +1,4 @@
-## Exploring targeted whole transcriptome gene expression profiles in human induced pluripotent stem cell-derived cortical and GABAergic neurons with 16p13.11 deletion
+## Exploring targeted whole transcriptome gene expression profiles in human iPSC-derived cortical and GABAergic neurons with 16p13.11 deletion
 
 
 ### Summary
